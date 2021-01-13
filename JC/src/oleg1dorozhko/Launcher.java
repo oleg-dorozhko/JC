@@ -69,7 +69,13 @@ public class Launcher {
 					int number1 = parseRimPhrase(number);
 					log("Result is: ",""+number1);
 				
-				} else if(number.contains("1")) {
+				} 
+				else if(number.contains("2")) {
+					
+					int number1 = Integer.parseInt(number);
+					log("Result is: ",""+number1);
+				}
+				else if(number.contains("1")) {
 					
 					int number1 = Integer.parseInt(number);
 					log("Result is: ",""+number1);
